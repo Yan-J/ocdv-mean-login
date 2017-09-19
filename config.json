@@ -1,5 +1,5 @@
 {
     "connectionString": "mongodb://ocdv:ocdv@ec2-34-203-226-192.compute-1.amazonaws.com:27017/dummyDB",
-    "apiUrl": "http://localhost:443/api",
+    "apiUrl": "http://localhost:80/api",
     "secret": "REPLACE THIS WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
 }

@@ -35,6 +35,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 // start server
-var server = app.listen(443, function () {
+var server = app.listen(80, function () {
     console.log('Server listening at http://' + server.address().address + ':' + server.address().port);
 });
